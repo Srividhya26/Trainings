@@ -1,0 +1,44 @@
+using System;
+
+namespace Trainings
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Addtion of two numbers
+            int a,b ,c;
+            Console.WriteLine("Enter the first number");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second number");
+            b = Convert.ToInt32(Console.ReadLine());
+            c = a+b;
+            Console.WriteLine($"The addiion of two numbers is {c}");  
+            
+            // Division of two numbers
+            int x,y,z;
+            Console.WriteLine("Enter the first number");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second number");
+            y = Convert.ToInt32(Console.ReadLine());
+            z = x/y;
+            Console.WriteLine("The division of two numbers is" + z);  
+            
+            // Take input from user and display
+            Console.WriteLine("Enter the first name");
+            string fn = Console.ReadLine();
+            Console.WriteLine("Enter the last name");
+            string ln = Console.ReadLine();
+            Console.WriteLine($"The name is {fn} {ln}");
+
+            //Different ways of concatenation
+            int p = 15;
+            int q = 10;
+            Console.WriteLine("The addition of two numbers is " +(p+q)); //Type 1
+            Console.WriteLine($"The subtraction of two numbers is {p-q}"); //Type 2
+            string firstName = "John";
+            string secondName = " s";
+            Console.WriteLine(string.Concat(firstName,secondName)); //Type 3
+        }
+    }
+}
