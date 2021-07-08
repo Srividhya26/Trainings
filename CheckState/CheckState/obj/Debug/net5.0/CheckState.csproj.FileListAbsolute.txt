@@ -1,0 +1,15 @@
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\obj\Debug\net5.0\CheckState.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\obj\Debug\net5.0\CheckState.AssemblyInfoInputs.cache
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\obj\Debug\net5.0\CheckState.AssemblyInfo.cs
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\obj\Debug\net5.0\CheckState.csproj.CoreCompileInputs.cache
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\bin\Debug\net5.0\CheckState.exe
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\bin\Debug\net5.0\CheckState.deps.json
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\bin\Debug\net5.0\CheckState.runtimeconfig.json
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\bin\Debug\net5.0\CheckState.runtimeconfig.dev.json
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\bin\Debug\net5.0\CheckState.dll
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\bin\Debug\net5.0\ref\CheckState.dll
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\bin\Debug\net5.0\CheckState.pdb
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\obj\Debug\net5.0\CheckState.dll
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\obj\Debug\net5.0\ref\CheckState.dll
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\obj\Debug\net5.0\CheckState.pdb
+C:\Users\srividhya\Desktop\Day 3\CheckState\CheckState\obj\Debug\net5.0\CheckState.genruntimeconfig.cache

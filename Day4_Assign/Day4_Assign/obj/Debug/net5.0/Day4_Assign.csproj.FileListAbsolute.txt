@@ -1,0 +1,16 @@
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\bin\Debug\net5.0\Day4_Assign.exe
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\bin\Debug\net5.0\Day4_Assign.deps.json
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\bin\Debug\net5.0\Day4_Assign.runtimeconfig.json
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\bin\Debug\net5.0\Day4_Assign.runtimeconfig.dev.json
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\bin\Debug\net5.0\Day4_Assign.dll
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\bin\Debug\net5.0\ref\Day4_Assign.dll
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\bin\Debug\net5.0\Day4_Assign.pdb
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\obj\Debug\net5.0\Day4_Assign.csproj.AssemblyReference.cache
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\obj\Debug\net5.0\Day4_Assign.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\obj\Debug\net5.0\Day4_Assign.AssemblyInfoInputs.cache
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\obj\Debug\net5.0\Day4_Assign.AssemblyInfo.cs
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\obj\Debug\net5.0\Day4_Assign.csproj.CoreCompileInputs.cache
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\obj\Debug\net5.0\Day4_Assign.dll
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\obj\Debug\net5.0\ref\Day4_Assign.dll
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\obj\Debug\net5.0\Day4_Assign.pdb
+C:\Users\srividhya\Desktop\Day 3\Day4_Assign\Day4_Assign\obj\Debug\net5.0\Day4_Assign.genruntimeconfig.cache
