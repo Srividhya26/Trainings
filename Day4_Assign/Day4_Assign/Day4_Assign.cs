@@ -23,13 +23,16 @@ namespace Day4_Assign
                 for(int j = i+1;j<arr.Length;j++)
                 {
                     if (arr[i] == arr[j])
-                        Console.WriteLine(arr[j]);
+                    {
+                        duplicateArray.Add(arr[j]);
+                    }
                 }
             }
-            
-
-
-
+            Console.WriteLine("The duplicate arrays in the list are");
+            foreach(var n in duplicateArray)
+            {
+                Console.WriteLine(n);
+            }
         }
     }
 }
