@@ -1,0 +1,93 @@
+REGULAR EXPRESSION:
+
+ * Regular Expression (RE) is used to check whether the given text matches with the given pattern or not.
+ * To use RE we want to import System.Text.RegularExpressions;
+ * Before giving the pattern for RE we want to use "@". 
+ * For using RE we use Regex.There are various Regex expressions.
+ * To match the string we use "Match" method.
+ * The different expressions in RE are
+ 
+     1) " * " - Use to print preceding character.
+     
+     EG:
+     using System;
+     using System.Text.RegularExpressions;
+
+     namespace RE
+     {
+     class Program
+     {
+        static void Main(string[] args)
+        {
+        
+            // This will return any pattern b, ab, aab etc.,
+            Regex exp = new Regex(@"a*b");
+            Match text = exp.Match("aabbb");
+            if (text.Success)
+            {
+                Console.WriteLine(text.Value);
+            }
+        }
+      }
+    }
+    
+    Other expressions are "+" , "?" , "{n}" 
+    
+    There are also some special characters in Regex.Some of them are
+    
+    1) ^
+    2) $
+    3) .(DOT)
+    4) \D
+    5) \w
+    
+    EG FOR \w
+    
+    //It is use to match any alphanumeric and underscore character.
+    Regex regex = new Regex(@"\w");
+
+            Match match = regex.Match("Hello all how are you 34");
+
+            if (match.Success)
+            {
+                Console.WriteLine("Match Value: " + match.Value);
+            }
+            
+    There is also various character classes also.
+    
+    
+    COMMON LANGUAGE RUNTIME (CLR)
+    
+    CLR is a run-time environment produced by .NET to run codes and provide services.It is responsible for execution of .NET and can manage any 
+    .NET programming language.
+    
+    The codes that run under CLR are called as Managed code.
+    
+    Some of the main components of CLR are :
+     
+    1) Common Language Specification (CLS)
+    2) Common Type System (CTS)
+    3) Garbage Collection (GC)
+    4) Just In – Time Compiler (JIT)
+    
+    Talking about how c# compiler works, When you run the C# compiler, it takes your code as an input, does some processing, 
+    and then outputs your program in intermediate language (IL) code which is saved in *.exe or *. dll files. ... 
+    It uses a just-in-time, or JIT, compiler to translate the IL code into machine code
+   
+    Common Language Specification:
+    
+    It is responsible for converting various .NET Programming language into CLR understandable format.
+    
+    Common Type System(CTS):
+   
+    CTS is responsible for understanding every data types in .NET programming.
+   
+    GARBAGE COLLECTOR:
+    
+    It is used for automatic memory management feature.It automatically allocates and deallocates memory.
+    
+    Jusi In Time Compiler (JIT):
+    
+    It is responsible for converting the Intermediate Language to machine codes.
+  
+     
