@@ -1,0 +1,16 @@
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\bin\Debug\net5.0\ArithmeticOperation.exe
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\bin\Debug\net5.0\ArithmeticOperation.deps.json
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\bin\Debug\net5.0\ArithmeticOperation.runtimeconfig.json
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\bin\Debug\net5.0\ArithmeticOperation.runtimeconfig.dev.json
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\bin\Debug\net5.0\ArithmeticOperation.dll
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\bin\Debug\net5.0\ref\ArithmeticOperation.dll
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\bin\Debug\net5.0\ArithmeticOperation.pdb
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\obj\Debug\net5.0\ArithmeticOperation.csproj.AssemblyReference.cache
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\obj\Debug\net5.0\ArithmeticOperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\obj\Debug\net5.0\ArithmeticOperation.AssemblyInfoInputs.cache
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\obj\Debug\net5.0\ArithmeticOperation.AssemblyInfo.cs
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\obj\Debug\net5.0\ArithmeticOperation.csproj.CoreCompileInputs.cache
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\obj\Debug\net5.0\ArithmeticOperation.dll
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\obj\Debug\net5.0\ref\ArithmeticOperation.dll
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\obj\Debug\net5.0\ArithmeticOperation.pdb
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\ArithmeticOperation\ArithmeticOperation\obj\Debug\net5.0\ArithmeticOperation.genruntimeconfig.cache

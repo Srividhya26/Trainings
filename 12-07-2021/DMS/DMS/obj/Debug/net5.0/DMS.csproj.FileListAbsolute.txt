@@ -1,0 +1,16 @@
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\bin\Debug\net5.0\DMS.exe
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\bin\Debug\net5.0\DMS.deps.json
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\bin\Debug\net5.0\DMS.runtimeconfig.json
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\bin\Debug\net5.0\DMS.runtimeconfig.dev.json
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\bin\Debug\net5.0\DMS.dll
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\bin\Debug\net5.0\ref\DMS.dll
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\bin\Debug\net5.0\DMS.pdb
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\obj\Debug\net5.0\DMS.csproj.AssemblyReference.cache
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\obj\Debug\net5.0\DMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\obj\Debug\net5.0\DMS.AssemblyInfoInputs.cache
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\obj\Debug\net5.0\DMS.AssemblyInfo.cs
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\obj\Debug\net5.0\DMS.csproj.CoreCompileInputs.cache
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\obj\Debug\net5.0\DMS.dll
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\obj\Debug\net5.0\ref\DMS.dll
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\obj\Debug\net5.0\DMS.pdb
+C:\Users\srividhya\Desktop\Trainings\12-07-2021\DMS\DMS\obj\Debug\net5.0\DMS.genruntimeconfig.cache
