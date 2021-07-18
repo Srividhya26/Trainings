@@ -12,6 +12,7 @@ namespace ExtendMethod
             ins.Email = ins.email;
             ins.aadhaarno = "3675 9834 6015";
             ins.AadhaarcardNo = ins.aadhaarno;
+            ins.PayPremium("Life Insurance");
             Console.WriteLine("Name : " + ins.name);
             Console.WriteLine("Email : " + ins.Email);
             Console.WriteLine("Aadhaar No : "+ins.AadhaarcardNo);
