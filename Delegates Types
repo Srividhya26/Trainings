@@ -1,0 +1,48 @@
+Func Delegate 
+
+Func always return a value.
+
+Syntax : Func<input value,input value,output value> funcname = methodname;
+
+Example program :
+
+using System;
+public class FuncDelegate
+{
+    public static void Main( )
+    {
+        Func<string,string> find = FindCharacter;
+        Console.WriteLine(find("Welcome"));
+    }
+    
+    public static string FindCharacter(string text);
+    {
+        var res = text.Contains('c');
+        return "The text found";
+    }
+}
+
+Action Delegate
+
+Action Delegate same as func delegate but does not return a value
+
+Syntax : Action<int> actionname = methodname;
+
+Example program:
+
+using System;
+  
+class GFG {
+  
+    public static void sub(int a, int b)
+    {
+        Console.WriteLine(a - b);
+    }
+ 
+    static public void Main()
+    {
+        Action<int, int> val = sub;
+        val(20, 5);
+    }
+}
+
