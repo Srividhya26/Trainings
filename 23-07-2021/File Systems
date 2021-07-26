@@ -1,0 +1,34 @@
+FILES :
+
+  Files is the collection of datas stored in a directory whith specific names and path.Once the file is opened it becomes streams.
+
+STREAMS:
+
+  Streams are the sequence of bytes.There are two types of streams
+    i) input stream - It is used for reading the data in a file using read operation
+    ii) output stream - It is used for writing the datas into the file using write operation
+    
+ There are various I/O classes for doing various operations in the file.To use file we want to include "using Systems.IO" in our program.
+ 
+ Some of the I/O operations are 
+    1)Stream reader
+    2)Stream writer
+    3)String reader
+    4)String writer
+    5)Binary reader
+    6)Binary writer and so many...
+    
+    using System;
+    using System.IO
+    {
+ 
+           bool isFileExists = File.Exists(@"C:\ HtmlFile.txt"); => It is used to check whether particular file present or not.
+ 
+           File.Copy(@"C:\HtmlFile.txt", @"D:\DummyFile.txt"); => It is used to copy one file to another file
+ 
+           File.Move(@"C:\HtmlFile.txt", @"D:\HtmlFile.txt"); => It is used to move the file to another location
+ 
+           FileStream fs = File.Open(@"D:\HtmlFile.txt", FileMode.OpenOrCreate); => It is used to open the file
+ 
+           File.Delete(@"C:\HtmlFile.txt"); => It is used to delete a file
+   }
