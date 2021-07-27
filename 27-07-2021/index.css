@@ -1,0 +1,138 @@
+body
+{
+    background-image: url("https://wallpaperaccess.com/full/2312654.jpg");
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header
+{
+    min-height: 100px;
+    margin: auto;
+}
+
+.logo
+{
+    padding-left: 35px;
+    padding-top: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+header nav
+{
+    width: 500px;
+    min-height: 50px;
+    float: right;
+    margin-top: 20px;
+}
+
+.main
+{
+    /* background-color: darkorchid; */
+    display: flex;
+}
+
+.link
+{
+    margin-top: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    float: right;
+    font-size: 20px;
+}
+
+.link:hover
+{
+    color: blue;
+}
+
+.body
+{
+    margin: auto;
+    width: 1024px;
+    min-height: 700px;
+    /* background-color: burlywood; */
+}
+
+.article
+{
+    min-height: 520px;
+    /* background-color: rgb(154, 200, 231); */
+    width: 63%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.news
+{
+    width: 100%;
+    min-height: 250px;
+}
+
+p
+{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+aside 
+{
+    min-height: 520px;
+    /* background-color: darkseagreen; */
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+
+article section
+{
+    margin: auto;
+    width: 70%;
+    min-height: 250px;
+    /* background-color: goldenrod; */
+}
+
+h3
+{
+    text-align: center;
+}
+
+h2 
+{
+    text-align: center;
+}
+
+.trending
+{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.trending:hover
+{
+    color:royalblue;
+}
+
+footer
+{
+    min-height: 80px;
+    /* background-color: chartreuse; */
+}
+
+.footer
+{
+    padding-left: 250px;
+}
