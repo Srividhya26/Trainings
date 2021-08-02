@@ -1,0 +1,61 @@
+.main
+{
+    width: 1024px;
+    background-color: rgba(17, 20, 20, 0.116);
+    text-align: center;
+    margin: auto;
+    min-height: 100px;
+}
+
+h2
+{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family:cursive;
+}
+
+input
+{
+    width: 70%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.addButton
+{
+    font-size: 15px;
+    display: inline-block;
+}
+
+ul li {
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    background: #0c0b0b00;
+    font-size: 18px;
+    list-style: none;
+}
+
+ul li:nth-child(odd) 
+{
+    background: #14121246;
+}
+
+.list
+{
+    width: 1024px;
+    text-align: left;
+    margin: auto;
+    min-height: 500px;
+    padding: 0;
+    margin-left: 210px;
+}
+
+ul li.checked
+{
+    text-decoration: line-through;
+    background-color:lightcoral;
+    color: white;
+    
+}
+
