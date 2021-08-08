@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Form validation </title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <form id = "studentForm">
+            <h1> Student Details </h1>
+              
+            <label for="fname"> Name : </label>
+            <input type="text" placeholder="Name" id = "fname">
+            <h5 id = "nameCheck"> Enter the valid name</h5><br><br>
+             
+            <label for="phnNo"> Phone No : </label>
+            <input type="text" placeholder="Phone No" id = "phnNo">
+            <h5 id = "phnnoCheck"> Enter the valid phn no</h5>
+            
+            <input type="text" placeholder="Email ID" id = "emailId"> 
+            <h5 id = "mailCheck"> Enter the valid mail id </h5><br><br> 
+ 
+            <input type="submit" value="SUBMIT" id = "submitDetails">
+        </form>
+    </div>  
+    <script src="form.js"></script>
+</body>
+</html>
