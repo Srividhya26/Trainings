@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> TO DO LIST</title>
+</head>
+<body>
+    <!-- creating the heading for the page -->
+    <div class = "container-fluid">
+        <div class="text-center">
+            <div class = "col-7" style="margin: auto;">
+                <h1 style="background-color: red; min-height: 90px; padding-top: 20px; margin-top: 10px; border-radius: 10px;"> My To-Do List </h1>
+            </div>
+        </div>
+        
+        <!-- creating the input to add list -->
+        <div class="input-group input-group-sm mb-3">
+            <input type="text" id = "inputField" class = "w-50 p-2" #addTask placeholder = "Enter the activity" style="margin-left: 330px;">
+            <div class="input-group-append">
+              <button (click) = "addToList(addTask.value)" class="btn btn-outline-secondary" type="button" id="button-addon2"> Add to List </button>
+            </div>
+        </div>
+        
+        <!-- To display the items -->
+        <div *ngFor="let x of items; let index = index;" class="row mt-1" style="height:100px;">
+            <div class="col-3 d-none col-md-3 d-md-block"></div>
+  
+            <div class=" input-group-prepend col-12 col-md-6  d-flex justify-content-center align-items-center text-light h4" style="border-radius: 15px; background-color: rgba(184, 135, 11, 0.692);">
+
+                <input type="checkbox" aria-label="Checkbox for following text input" style="width: 20px; height: 20px;">
+                
+                <div class="col-9 text-light h4"> {{x}} </div>
+  
+                <input type="button" style ="border-radius: 10px;" (click) = "deleteItem(index)" value = "Del" class="col-1 btn btn-danger">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
