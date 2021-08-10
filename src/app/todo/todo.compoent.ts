@@ -28,5 +28,11 @@ export class todo
     {
         this.items.splice(index,1);
     }
+  
+    public getTodos()
+    {
+        console.log(this.items);
+        localStorage.setItem('myTodos',JSON.stringify(this.items));
+    }
 }
 
