@@ -17,6 +17,7 @@
             <input type="text" id = "inputField" class = "w-50 p-2" #addTask placeholder = "Enter the activity" style="margin-left: 330px;">
             <div class="input-group-append">
               <button (click) = "addToList(addTask.value)" class="btn btn-outline-secondary" type="button" id="button-addon2"> Add to List </button>
+              <button (click) = "getTodos()"> Display </button>
             </div>
         </div>
         
