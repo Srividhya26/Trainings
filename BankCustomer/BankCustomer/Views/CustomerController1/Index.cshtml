@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model IEnumerable<Customer>
+
+<div class="row">
+    <div class="col-10">
+        <h4> Customer Details </h4>
+    </div>
+    <div class="col-2">
+        <a asp-controller="CustomerController1" asp-action="Create" class="btn btn-primary"> Create new Book </a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <table class="table table-bordered table-striped" style="width: 100%">
+            <thead>
+                <tr>
+                    <th> Customer Id </th>
+                    <th> Name </th>
+                    <th> Address </th>
+                    <th> Age </th>
+                    <th> Gender </th>
+                    <th> Opening Balance </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var cus in Model)
+                {
+                    <tr>
+                        <td> @cus.Id  </td>
+                        <td> @cus.Name </td>
+                        <td> @cus.Address </td>
+                        <td> @cus.Age </td>
+                        <td> @cus.Gender </td>
+                        <td> @cus.OpeningBalance </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
