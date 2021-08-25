@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model IEnumerable<EmployeesDetail>
+
+<div class="row">
+    <div class="col-10">
+        <h4> Employee Details </h4>
+    </div>
+    <div class="col-2">
+        <a asp-controller="Employee" asp-action="Create" class="btn btn-primary"> Add Employee </a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <table class="table table-bordered table-striped" style="width: 100%">
+            <thead>
+                <tr>
+                    <th> Employee ID </th>
+                    <th> Name </th>
+                    <th> Designation </th>
+                    <th> Hire Date </th>
+                    <th> Department Id </th>
+                    <th> Status </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var emp in Model)
+                {
+                    <tr>
+                        <td> @emp.Id  </td>
+                        <td> @emp.Name </td>
+                        <td> @emp.Designation </td>
+                        <td> @emp.HireDate </td>
+                        <td> @emp.DepartmentId </td>
+                        <td> @emp.DelStatus </td>
+                        <td>
+                            <a asp-action="Update" asp-route-id="@emp.Id" class="btn btn-primary"> Update </a>
+                        </td>
+                        <td>
+                            <a asp-action="Delete" asp-route-id="@emp.Id" class="btn btn-primary" onclick="return confirm('Are you sure to delete the customer')"> Soft Delete </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
