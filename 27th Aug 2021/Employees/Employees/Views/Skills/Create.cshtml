@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+
+@model Skills
+
+<form method="post" asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group row">
+        <h3> Add Employee </h3>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="form-group row">
+                <div class="col-6">
+                    <label asp-for="SkillName"></label>
+                </div>
+                <div class="col-6">
+                    <input type="text" asp-for="SkillName" placeholder="Skill Name" />
+                    <span asp-validation-for="SkillName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div col-6>
+                    <p class="text-danger text-center">
+                        @Html.Label("",Convert.ToString((string)ViewBag.Duplicate))
+                    </p>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <input type="submit" class="btn btn-info w-50" />
+                </div>
+                <div class="col-4">
+                    <a asp-action="Index" class="btn btn-danger w-50"> Back </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts
+{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+
